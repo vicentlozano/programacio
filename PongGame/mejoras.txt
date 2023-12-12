@@ -1,0 +1,24 @@
+¡Diviértete!
+
+Bueno, el juego de Pong está prácticamente completo. Si comprendiste todas las cosas que se cubrieron en este tutorial,
+ date una palmadita en la espalda y piensa en cómo podrías mejorar el juego. Aquí tienes algunas ideas de cosas que podrías hacer:
+
+1.Agregar gráficos/imágenes más agradables: (Pista: revisa la propiedad source en las instrucciones gráficas como Circle o 
+Rectangle para establecer una imagen como textura).
+
+2.Hacer que el juego termine después de alcanzar una cierta puntuación: Tal vez, una vez que un jugador tenga 10 puntos,
+ puedas mostrar una etiqueta grande que diga "PLAYER 1 WINS" y/o agregar un menú principal para iniciar, pausar y reiniciar el juego.
+(Pista: revisa las clases Button y Label, y descubre cómo usar sus funciones add_widget y remove_widget para agregaro quitar widgets dinámicamente).
+
+3.Hacerlo un juego de Pong de 4 jugadores: La mayoría de las tabletas tienen soporte para Multi-Touch, 
+¿no sería genial tener un jugador en cada lado y que cuatro personas jueguen al mismo tiempo?
+
+4.Arreglar la verificación de colisiones simplista: Para que golpear la pelota con un extremo de la paleta resulte en un rebote más realista.
+
+Nota:
+Puedes encontrar el código fuente completo, así como los archivos de código fuente para cada paso, en el directorio de ejemplos de Kivy bajo tutorials/pong/.
+
+
+
+
+

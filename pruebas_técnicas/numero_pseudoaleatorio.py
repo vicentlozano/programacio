@@ -18,8 +18,8 @@ def num_pseudoaleatorio():
     resultado = str(numaleatoria[0]) + str(numaleatoria[1])
     suma = int(resultado)
     if suma < 100 and suma > 0 and suma in range(95,100) and (ahora.microsecond %2 == 0): suma += 1
-    print(suma)
-num_pseudoaleatorio()
+    return(suma)
+
     
    
     

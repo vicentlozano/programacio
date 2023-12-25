@@ -38,7 +38,7 @@ def sombrero_seleccionador():
     Slytherin = 0
     print("Con que fin estudias magia? \n 1.Ayudar a los demás \n 2.Para ser famoso   \n 3.Para ser poderoso   \n 4.Para ser feliz")
     respuesta1 = int(input("Escribe el numero de la respuesta: "))
-    while respuesta1 not in range(1,4):
+    while respuesta1 not in range(1,5):
         if respuesta1 == 1:
             Hufflepuff += 1
         elif respuesta1 == 2:
@@ -51,7 +51,7 @@ def sombrero_seleccionador():
             print("No es una respuesta valida")
     print("Dada la opción, preferirías inventar una poción que garantizara: \n 1.Gloria \n 2.Sabiduria \n 3.Amor \n 4.Poder")
     respuesta2 = int(input("Escribe el numero de la respuesta: "))
-    while respuesta2 not in range(1,4):
+    while respuesta2 not in range(1,5):
         if respuesta2 == 1:
             Gryffindor += 1
         elif respuesta2 == 2:
@@ -64,7 +64,7 @@ def sombrero_seleccionador():
             print("No es una respuesta valida")
     print("¿Cómo le gustaría ser conocido en la historia? \n 1.El sabio \n 2.El bueno \n 3.El gran \n 4.El audaz")
     respuesta3 = int(input("Escribe el numero de la respuesta: "))
-    while respuesta3 not in range(1,4):
+    while respuesta3 not in range(1,5):
         if respuesta3 == 1:
             Ravenclaw += 1
         elif respuesta3 == 2:
@@ -77,7 +77,7 @@ def sombrero_seleccionador():
             print("No es una respuesta valida")
     print("¿Que camino te tienta más? \n 1.El carril amplio, soleado y cubierto de hierba \n 2.El callejón estrecho, oscuro e iluminado por linternas \n 3.El camino retorcido y cubierto de hojas a través del bosque \n 4.La calle adoquinada bordeada de edificios antiguos")
     respuesta4 = int(input("Escribe el numero de la respuesta: "))
-    while respuesta4 not in range(1,4):
+    while respuesta4 not in range(1,5):
         if respuesta4 == 1:
             Hufflepuff += 1
         elif respuesta4 == 2:
@@ -90,7 +90,7 @@ def sombrero_seleccionador():
             print("No es una respuesta valida")
     print("Una vez cada siglo, el arbusto Flutterby produce flores que adaptan su aroma para atraer a los desprevenidos. Si te atrajera, olería a: \n 1.Una chimenea crepitante \n 2.Pergamino fresco \n 3.Tu hogar \n 4.El mar")
     respuesta5 = int(input("Escribe el numero de la respuesta: "))
-    while respuesta5 not in range(1,4):
+    while respuesta5 not in range(1,5):
         if respuesta5 == 1:
             Gryffindor += 1
         elif respuesta5 == 2:
